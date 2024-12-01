@@ -1,0 +1,5 @@
+name = input("Your name please:")
+print("Hello"+" "+ name)
+height = float(input("Whats your height?:"))
+height_inches="{:.3f}".format(height/2.54)
+print("Your height is:"+str(height_inches)+" "+"inches")
